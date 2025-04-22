@@ -1,0 +1,30 @@
+# Ignore build outputs
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+docker-compose.override.yml
+EShopMicroservices.postman_collection.json
+Services/Ordering/Ordering.API/appsettings.json
+Services/Discount/Discount.Grpc/appsettings.json
+Services/Catalog/Catalog.API/appsettings.json
+Services/Basket/Basket.API/appsettings.json
+# Ignore configuration files
+appsettings.json
+appsettings.Development.json
+
+# Secrets folder (for User Secrets – explained next)
+secrets.json
