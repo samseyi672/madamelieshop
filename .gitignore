@@ -22,9 +22,13 @@ Services/Ordering/Ordering.API/appsettings.json
 Services/Discount/Discount.Grpc/appsettings.json
 Services/Catalog/Catalog.API/appsettings.json
 Services/Basket/Basket.API/appsettings.json
+Services/Basket/Basket.API/Properties/launchSettings.json
+ApiGateways/YarpApiGateway/Properties/launchSettings.json
+Services/Catalog/Catalog.API/Properties/launchSettings.json
+Services/Discount/Discount.Grpc/Properties/launchSettings.json
 # Ignore configuration files
 appsettings.json
 appsettings.Development.json
 
-# Secrets folder (for User Secrets – explained next)
+# Secrets folder
 secrets.json
